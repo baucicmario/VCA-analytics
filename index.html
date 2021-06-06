@@ -1,0 +1,682 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>Videosec hírlevél</title>
+
+
+
+<style type="text/css">
+
+
+
+section{
+	padding: 30px;
+}
+
+table{
+	width: 800px;
+	padding: 10px;
+	
+}
+
+body{
+	
+	background-color: #E9ECEF;
+	background:#E9ECEF;
+}
+
+
+
+
+
+
+
+
+
+
+.slide1{
+	background-color: #1d1e22;
+	background:#1d1e22;
+}
+
+.slide2{
+	background-color: #24282F;
+	background:#24282F;
+}
+
+.slide3{
+	background-color: #0094f7;
+	background:#0094f7;
+	color: #000000!important;
+}
+.slide4{
+  background-color: #32B1FF;
+	background:#32B1FF;
+}
+
+.table-eloszlas-td{
+	width: 400px;
+}
+.img2{
+	
+	box-shadow: 0 8px 16px 0 #d3d3d379, 0 0px 4px 0 #d3d3d379;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-slide1-h2{
+	font-size: 30px;
+	font-family: Helvetica;
+	border-left: 6px solid #0094f7;
+	padding-left: 25px;
+	color:#ffffff;
+}
+
+.text-slide1-h1{
+	font-size: 50px;
+	font-family: Helvetica;
+	border-left: 6px solid #0094f7;
+	padding-left: 25px;
+	color:#ffffff;
+	text-transform: uppercase;
+}
+
+.text-slide1{
+	font-size: 20px;
+	font-family: Helvetica;
+	border-left: 6px solid #0094f7;
+	border-top: 6px solid #0094f7;
+	padding-left: 25px;
+	padding-top: 20px;
+	color:#ffffff;
+}
+
+
+
+.text-slide3-h2{
+	font-size: 30px;
+	font-family: Helvetica;
+	padding-left: 15px;
+	color: #002238;
+	
+}
+.text-slide3-h1{
+	margin-bottom: 0px;
+	font-size: 50px;
+	font-family: Helvetica;
+	padding-left: 15px;
+	color: #002238;
+	text-transform: uppercase;
+	
+}
+
+.text-slide3{
+	font-size: 20px;
+	font-family: Helvetica;
+	border-left: 6px solid #0094f7;
+	border-top: 6px solid #0094f7;
+	padding-left: 15px;
+	color: #002238;
+	font-weight: 100;
+	padding:15px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-big {
+  background-color: #0094f7; 
+  border: none;
+  color: #E9ECEF;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 100%;
+  margin: 0px;
+}
+
+.button-gray {
+  background-color: #393f4d; 
+  color: #C8CBD2; 
+  margin: 0px;
+  border-radius: 0 5px 5px 0;
+  border: 3px solid #393f4d;
+  
+}
+
+.button-gray:hover {
+  background-color: #393f4d;
+  color: #C8CBD2;
+  margin: 0px;
+  
+  border-radius: 0 5px 5px 0;
+  border: 3px solid #0094f7;
+}
+
+.button-blue {
+  background-color: #0094f7; 
+  color: #393f4d; 
+  margin: 0px;
+  
+  border: 3px solid #0094f7;
+  
+  border-radius: 5px 0 0 5px;
+}
+
+.button-blue:hover {
+  background-color: #393f4d;
+  color: #C8CBD2;
+  margin: 0px;
+  
+  border: 3px solid #0094f7;
+  
+  border-radius: 5px 0 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+  background-color: #0094f7; 
+  border: none;
+  color: #C8CBD2;
+  padding: 18px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.button-black {
+  background-color: #000000; 
+  color: #E9ECEF; 
+  border: 2px solid #0094f7;
+}
+
+.button-black:hover {
+  background-color: #32B1FF;
+  color: #393f4d; 
+  border: 2px solid #393f4d;
+  
+  padding: 25px 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*képösszehasonlító részlet pixelcomparerol*/
+
+	.container {
+	 max-width: 800px;
+	 margin: auto;
+	}
+	.showcase-card {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 background-color: #ffff;
+	 border-radius: 4px;
+	}
+	.ex-preview {
+	 height: 500px;
+	 width: 100%;
+	}
+
+	.pixelcompare-wrapper.pixelcompare-horizontal {
+	 height: 100% !important;
+	}
+	.pixelcompare-horizontal .pixelcompare-handle:before, .pixelcompare-horizontal .pixelcompare-handle:after, .pixelcompare-vertical .pixelcompare-handle:before, .pixelcompare-vertical .pixelcompare-handle:after {
+	 content: "";
+	 display: block;
+	 background: rgb(255, 0, 0);
+	 position: absolute;
+	 z-index: 30; 
+	}
+	img.pixelcompare-before, img.pixelcompare-after {
+	 height: 100%;
+	 object-fit: cover;
+	 -webkit-user-select: none;
+	 -khtml-user-select: none;
+	 -moz-user-select: none;
+	 -o-user-select: none;
+	 user-select: none;
+	}
+
+	.pixelcompare-before-label, .pixelcompare-after-label, .pixelcompare-overlay {
+	 position: absolute;
+	 top: 0;
+	 width: 100%;
+	 height: 100%; 
+	}
+
+	.pixelcompare-before-label, .pixelcompare-after-label, .pixelcompare-overlay {
+	 transition-duration: 0.5s; 
+	}
+
+	.pixelcompare-before-label, .pixelcompare-after-label {
+	 transition-property: opacity; 
+	}
+
+	.pixelcompare-horizontal .pixelcompare-before-label:before, .pixelcompare-horizontal .pixelcompare-after-label:before {
+	 top: 50%;
+	 margin-top: -19px; 
+	}
+
+	.pixelcompare-vertical .pixelcompare-before-label:before, .pixelcompare-vertical .pixelcompare-after-label:before {
+	 left: 50%;
+	 margin-left: -45px;
+	 text-align: center;
+	 width: 90px; 
+	}
+
+	.pixelcompare-left-arrow, .pixelcompare-right-arrow, .pixelcompare-up-arrow, .pixelcompare-down-arrow {
+	 width: 0;
+	 height: 0;
+	 border: 6px inset transparent;
+	 position: absolute; 
+	}
+
+	.pixelcompare-left-arrow, .pixelcompare-right-arrow {
+	 top: 50%;
+	 margin-top: -6px;
+	}
+
+	.pixelcompare-up-arrow, .pixelcompare-down-arrow {
+	 left: 50%;
+	 margin-left: -6px; 
+	}
+
+	.pixelcompare-container {
+	 box-sizing: content-box;
+	 z-index: 0;
+	 height: 100%;
+	 overflow: hidden;
+	 position: relative;
+	 -webkit-user-select: none;
+	 -khtml-user-select: none;
+	 -moz-user-select: none;
+	 -o-user-select: none;
+	 user-select: none;
+	}
+	.pixelcompare-container img {
+	 max-width: 100%;
+	 position: absolute;
+	 top: 0;
+	 display: block; 
+	}
+	.pixelcompare-container.active .pixelcompare-overlay .pixelcompare-before-label,
+	.pixelcompare-container.active .pixelcompare-overlay .pixelcompare-after-label,
+	.pixelcompare-container.active :hover.pixelcompare-overlay .pixelcompare-before-label,
+	.pixelcompare-container.active :hover.pixelcompare-overlay .pixelcompare-after-label {
+	 opacity: 0; 
+	}
+	.pixelcompare-container * {
+	 box-sizing: content-box; 
+	}
+
+	.pixelcompare-before-label {
+	 opacity: 0; 
+	}
+	.pixelcompare-before-label:before {
+	 content: attr(data-content); 
+	}
+
+	.pixelcompare-after-label {
+	 opacity: 0; 
+	}
+	.pixelcompare-after-label:before {
+	 content: attr(data-content); 
+	}
+
+	.pixelcompare-horizontal .pixelcompare-before-label:before {
+	 left: 10px; 
+	}
+
+	.pixelcompare-horizontal .pixelcompare-after-label:before {
+	 right: 10px; 
+	}
+
+	.pixelcompare-vertical .pixelcompare-before-label:before {
+	 top: 10px; 
+	}
+
+	.pixelcompare-vertical .pixelcompare-after-label:before {
+	 bottom: 10px; 
+	}
+
+	.pixelcompare-overlay:hover, 
+	.pixelcompare-container.active .pixelcompare-overlay, 
+
+	.pixelcompare-overlay:hover .pixelcompare-after-label {
+	 opacity: 1; 
+	}
+	.pixelcompare-overlay:hover .pixelcompare-before-label {
+	 opacity: 1; 
+	}
+
+	.pixelcompare-horizontal .pixelcompare-handle {
+	 background-color: #0094f7;
+	 height: 65px;
+	 width: 40px;
+	 position: absolute;
+	 left: 50%;
+	 top: 50%;
+	 margin-top: -19px;
+	 margin-left: -20px;
+	 border-radius: 1000px;
+	 z-index: 40;
+	 cursor: pointer;
+	}
+
+	.pixelcompare-horizontal .pixelcompare-handle:before {
+	 bottom: 50%;
+	 height: 799px;    
+	 margin-bottom: 33px;
+	 margin-left: 20px;
+	 background: none;
+	 position: absolute;
+	 z-index: 999;
+	 
+	}
+
+	.pixelcompare-horizontal .pixelcompare-handle:after {
+	 top: 50%;
+	 height: 257px;
+	 margin-top: 33px;
+	 margin-left: 20px;
+	 background: none;
+	 position: absolute;
+	 z-index: 999;
+	}
+	.pixelcompare-left-arrow {
+	 border-right: 10px solid #ffffff;
+	 left: 50%;
+	 margin-left: -18px;
+	}
+	.pixelcompare-right-arrow {
+	 border-left: 10px solid #ffffff;
+	 right: 50%;
+	 margin-right: -18px; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	table {border-collapse:separate;}
+	a, a:link, a:visited {text-decoration: none; color: #00788a;}
+	a:hover {text-decoration: underline;}
+	h2 a,h2 a:visited,h3,h3 a,h3 a:visited,h4,h5,h6,.t_cht {color:#000 !important;}
+	.ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {line-height: 100%;}
+	.ExternalClass {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;">
+
+
+<section id="osszefoglalo" class="slide1">
+	<table align="center">
+		<tbody>
+		  <tr>
+			<td class="container">
+					<img src="./2021-17/ALL-CAMS.png" alt="Nature" style="width:100%;">
+			</td>
+		  </tr>
+		</tbody>
+	</table>
+	<table align="center"> 
+		<tbody>
+		  <tr>
+			<td colspan="2" align="center">
+				<table style="width: 100px;">
+					<tr align="center">
+						<td>
+							<h2 class="text-slide1-h2">
+								TEST
+							</h2>
+						</td>
+					</tr>
+				</table>
+			</td>
+		  </tr>
+		  <tr style="box-shadow: 0 6px 20px 0 #0000008a;">
+			<td align="center" style="padding: 0; margin: 0; width: 400px;">
+				<button class="button-big button-blue">VCA </button>
+			</td>
+			<td align="center" style="padding: 0; margin: 0; width: 400px;">
+				<a href="#starlight-header"><button class="button-big button-gray">STARLIGHT</button></a>
+			</td>
+		  </tr>
+		</tbody>
+	</table>
+</section>
+
+
+
+<section id="starlight-header" class="slide3" >
+	<table align="center" >
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<p>&nbsp;</p></td>
+			</tr>
+			<tr>
+				<td style="width: 266;"align="center">
+					<button class="button button-black">Beüzemelés</button>
+				</td>
+				<td style="width: 266!important;"align="center">
+					<img src="./2021-17/starlight-section.jpg" alt="starlight_cimszo" style="width:266px;">
+				</td>
+				<td style="width: 266;"align="center">
+					<button class="button button-black">Mintafelvétel</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+
+
+
+<section id="starlight" class="slide3">
+	<table align="center">
+		<tbody>
+		  <tr>
+			<td class="table-eloszlas-td">
+				<img src="./2021-17/varoshaza.jpg" alt="varoshaza">
+			<td >
+				<h2 class="text-slide3-h2">Színes felvételek egész nap</h2>
+				<p class="text-slide3">Starlight kameráink nagy teljesítményű szenzorjuk és fejlet algoritmusuk segítségével képesek akár teljes sötétségben is színes felvételeket biztosítani</p>
+		  </tr>
+		</tbody>
+		</table>
+</section>
+
+
+
+<section id="compare" class="slide1">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="800px&quot;">
+		<tbody>
+			<tr>
+				<td>
+					<h2 class="text-slide1-h2" style="text-align: left; border-left: 0px solid #0094f7;">IR felvételek hátrányai nékül</h2>
+					<p class="text-slide1">Starlight kameráink képesek esti felvételeket biztosítani abllakról vagy más fényes felületről, Infravörös tükröződések nélkül</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="container">
+						<div class="showcase-card">
+							<div class="ex-preview">
+								<div class="pixelcompare" data-pixelcompare=""><img src="https://videosec.com/hirlevel/2021-15/blackandwhite.jpg" width="100%" /> <img src="https://videosec.com/hirlevel/2021-15/color.jpg" width="100%" /></div>
+							</div>
+						</div>
+					</div>
+					<script>"use strict";!function(){var e=function(e,t){-1==e.className.split(" ").indexOf(t)&&(e.className+=" "+t)},t={default_offset_pct:.5,orientation:"horizontal",overlay:!1,hover:!1,move_with_handle_only:!0,click_to_move:!1,showSlider:!0};document.querySelectorAll("[data-pixelcompare]").forEach(function(i){var n=t.default_offset_pct,a=i;t.hover=i.hasAttribute("data-hover"),t.showSlider=t.hover?i.hasAttribute("data-show-slider"):t.showSlider,t.orientation=i.hasAttribute("data-vertical")?"vertical":"horizontal";var r=a.dataset.pixelcompareOrientation,o=["vertical","horizontal","sides"].includes(r)?r:t.orientation,l="vertical"===o?"down":"left",c="vertical"===o?"up":"right",d=function(t,i,n){var a=document.createElement(i);return e(a,"pixelcompare-wrapper pixelcompare-"+n),t.parentElement.insertBefore(a,t),a.appendChild(t),a}(i,"div",o),s=d.querySelectorAll("img")[0];s.draggable=!1;var p=d.querySelectorAll("img")[1];p.draggable=!1,e(d,"pixelcompare-container"),e(s,"pixelcompare-before"),e(p,"pixelcompare-after");var v=null;if(t.showSlider&&(v=function(t,i){var n=document.createElement("div");e(n,"pixelcompare-handle");var a=document.createElement("span");e(a,"pixelcompare-"+t+"-arrow"),n.appendChild(a);var r=document.createElement("span");return e(r,"pixelcompare-"+i+"-arrow"),n.appendChild(r),n.addEventListener("touchmove",function(e){e.preventDefault()}),n}(l,c),d.appendChild(v)),t.overlay){var h=document.createElement("div");e(h,"pixelcompare-overlay"),d.appendChild(h)}var u=function(e){var t,i,n,a=(t=e,i=s.getBoundingClientRect().width,n=s.getBoundingClientRect().height,{w:i+"px",h:n+"px",wp:100*t,cw:t*i+"px",ch:t*n+"px"});v&&("vertical"===o?v.style.top=a.ch:v.style.left=a.cw),function(e){"vertical"===o?(s.style.clip="rect(0, "+e.w+", "+e.ch+", 0)",p.style.clip="rect("+e.ch+", "+e.w+", "+e.h+", 0)"):"sides"===o?(s.style.clipPath=`polygon(0% ${2*(50-e.wp)}%, ${2*e.wp}% 100%, 0% 100%)`,p.style.clipPath=`polygon(100% ${2*(100-e.wp)}%, ${-2*(50-e.wp)}% 0%, 100% 0%)`):(s.style.clip="rect(0, "+e.cw+", "+e.h+", 0)",p.style.clip="rect(0, "+e.w+","+e.h+","+e.cw+")"),d.style.height=e.h}(a)},m=function(e,t){var i,n,a;return i="vertical"===o?(t-w)/E:(e-f)/g,n=0,a=1,Math.max(n,Math.min(a,i))};window.addEventListener("resize.pixelcompare",function(e){u(n)});var f=0,w=0,g=0,E=0,x=function(t){(t.distX>t.distY&&t.distX<-t.distY||t.distX<t.distY&&t.distX>-t.distY)&&"vertical"!==o?t.preventDefault():(t.distX<t.distY&&t.distX<-t.distY||t.distX>t.distY&&t.distX>-t.distY)&&"vertical"===o&&t.preventDefault(),e(d,"active"),f=d.offsetLeft,w=d.offsetTop,g=s.getBoundingClientRect().width,E=s.getBoundingClientRect().height},y=function(e){var t;t=d,new RegExp("(\\s|^)"+"active"+"(\\s|$)").test(t.className)&&(n=m(e.pageX||e.changedTouches[0].pageX,e.pageY||e.changedTouches[0].pageY),u(n))},L=function(){var e;e="active",d.classList.remove(e)};if(t.hover)d.addEventListener("mouseenter",x),d.addEventListener("mouseleave",L),d.addEventListener("mousemove",y);else{var _=t.move_with_handle_only?v:d;window.addEventListener("mouseup",L),d.addEventListener("mousemove",y),_.addEventListener("mousedown",x),_.addEventListener("touchstart",x),d.addEventListener("touchmove",y),window.addEventListener("touchend",L)}d.querySelector("img").addEventListener("mousedown",function(e){e.preventDefault()}),t.click_to_move&&d.on("click",function(e){f=d.offset().left,w=d.offset().top,g=s.width(),E=s.height(),n=m(e.pageX,e.pageY),u(n)}),window.dispatchEvent(new Event("resize.pixelcompare"))})}();</script>
+					</td>
+			</tr>
+			
+		</tbody>
+	</table>
+</section>
+
+
+
+
+
+
+
+</body>
+</html>
