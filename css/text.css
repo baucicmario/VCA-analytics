@@ -1,0 +1,48 @@
+h1,h2,h3,p{
+	font-family: Helvetica;
+}
+h2{
+	font-size: 45px;
+}
+h1{
+	font-size: 65px;
+}
+p{
+	font-size: 30px;
+}
+
+.table-eloszlas-2{
+	width: 400px;
+}
+.table-eloszlas-3{
+	width: 266px;
+}
+
+.img2{
+	padding: 10px;
+}
+
+.shadow{
+	box-shadow: 0 6px 20px 0 #0000008a;
+}
+.text-left{
+	text-align: left; 
+	padding-left: 25px;
+}
+
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+table{
+	width: 800px;
+	padding: 10px;
+	
+}
+body{
+	margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+	background-color: #E9ECEF;
+	background:#E9ECEF;
+}
