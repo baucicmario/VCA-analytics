@@ -80,22 +80,22 @@
     color: #393f4d; 
     border: 2px solid #393f4d;
     
-    padding: 30px 32px;
+    padding: 35px 32px;
   }
   
   
   
   .button-blueon {
-    background-color: #393F4D; 
-    color: #E9ECEF; 
-    border: 6px solid #32B1FF;
+    background-color: #32B1FF; 
+    color: #393f4d; 
+    border: 2px solid #393f4d;
   }
   
   .button-blueon:hover {
-    background-color: #32B1FF;
-    color: #393f4d; 
-    border: 6px solid #393f4d;
+    background-color: #393f4d;
+    color: #E9ECEF; 
+    border: 2px solid #393f4d;
     
-    padding: 30px 32px;
+    padding: 35px 32px;
   }
   
