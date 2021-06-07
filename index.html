@@ -60,10 +60,18 @@ body{
 .table-eloszlas-td{
 	width: 400px;
 }
-.img2{
-	
-	box-shadow: 0 8px 16px 0 #d3d3d379, 0 0px 4px 0 #d3d3d379;
-	border-radius: 15px;
+
+
+
+.text-stlye1{
+	padding: 25px;
+	color:#E9ECEF;
+}
+
+
+
+.text-stlye3{
+	color:#1d1e22;
 }
 
 
@@ -76,78 +84,85 @@ body{
 
 
 
+.text-gradient{
+	background: rgb(71,255,250);
+background: -moz-linear-gradient(90deg, rgba(71,255,250,1) 0%, rgba(174,110,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(71,255,250,1) 0%, rgba(174,110,255,1) 100%);
+background: linear-gradient(90deg, rgba(71,255,250,1) 0%, rgba(174,110,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#47fffa",endColorstr="#ae6eff",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
 
+h1,h2,h3,p{
+	font-family: Helvetica;
+}
 
-
-
-
-
-
-
-
-
-.text-slide1-h2{
+.text-h2{
 	font-size: 30px;
-	font-family: Helvetica;
-	border-left: 6px solid #0094f7;
-	padding-left: 25px;
-	color:#ffffff;
 }
 
-.text-slide1-h1{
-	font-size: 50px;
-	font-family: Helvetica;
-	border-left: 6px solid #0094f7;
-	padding-left: 25px;
-	color:#ffffff;
-	text-transform: uppercase;
+.text-h1{
+	font-size: 45px;
 }
 
-.text-slide1{
-	font-size: 20px;
-	font-family: Helvetica;
+.text{
+	font-size: 30px;
+}
+
+
+
+
+.lines-left-stlye1{
 	border-left: 6px solid #0094f7;
+	padding-left: 25px;
+	color:#E9ECEF;
+}
+
+.lines-right-stlye1{
+	border-right: 6px solid #0094f7;
+	padding-right: 25px;
+	color:#E9ECEF;
+}
+
+.lines-top-stlye1{
 	border-top: 6px solid #0094f7;
-	padding-left: 25px;
 	padding-top: 20px;
-	color:#ffffff;
+	color:#E9ECEF;
+}
+.lines-bottom-stlye1{
+	border-bottom: 6px solid #0094f7;
+	padding-bottom: 20px;
+	color:#E9ECEF;
 }
 
 
 
-.text-slide3-h2{
-	font-size: 30px;
-	font-family: Helvetica;
-	padding-left: 15px;
-	color: #002238;
-	
-}
-.text-slide3-h1{
-	margin-bottom: 0px;
-	font-size: 50px;
-	font-family: Helvetica;
-	padding-left: 15px;
-	color: #002238;
-	text-transform: uppercase;
-	
+.lines-left-stlye3{
+	border-left: 6px solid #E9ECEF;
+	padding-left: 25px;
+	color:#000000;
 }
 
-.text-slide3{
-	font-size: 20px;
-	font-family: Helvetica;
-	border-left: 6px solid #0094f7;
-	border-top: 6px solid #0094f7;
-	padding-left: 15px;
-	color: #002238;
-	font-weight: 100;
-	padding:15px;
-	
+.lines-right-stlye3{
+	border-right: 6px solid #E9ECEF;
+	padding-right: 25px;
+	color:#000000;
 }
 
-
+.lines-top-stlye3{
+	border-top: 6px solid #E9ECEF;
+	padding-top: 20px;
+	color:#000000;
+}
+.lines-bottom-stlye3{
+	border-bottom: 6px solid #E9ECEF;
+	padding-bottom: 20px;
+	color:#000000;
+}
 
 
 
@@ -230,20 +245,6 @@ body{
   
   border-radius: 5px 0 0 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .button {
   background-color: #0094f7; 
@@ -581,11 +582,11 @@ body{
 		<tbody>
 		  <tr>
 			<td colspan="2" align="center">
-				<table style="width: 100px;">
+				<table style="width: 340px;">
 					<tr align="center">
 						<td>
-							<h2 class="text-slide1-h2">
-								TEST
+							<h2 class="text-h2 lines-left-stlye1">
+								SmartIQ kameráink
 							</h2>
 						</td>
 					</tr>
@@ -594,7 +595,7 @@ body{
 		  </tr>
 		  <tr style="box-shadow: 0 6px 20px 0 #0000008a;">
 			<td align="center" style="padding: 0; margin: 0; width: 400px;">
-				<button class="button-big button-blue">VCA </button>
+				<a href="#VCA-header"><button class="button-big button-blue">VCA</button></a>
 			</td>
 			<td align="center" style="padding: 0; margin: 0; width: 400px;">
 				<a href="#starlight-header"><button class="button-big button-gray">STARLIGHT</button></a>
@@ -606,7 +607,7 @@ body{
 
 
 
-<section id="starlight-header" class="slide3" >
+<section id="starlight-header" class="slide2" >
 	<table align="center" >
 		<tbody>
 			<tr>
@@ -621,7 +622,7 @@ body{
 					<img src="./2021-17/starlight-section.jpg" alt="starlight_cimszo" style="width:266px;">
 				</td>
 				<td style="width: 266;"align="center">
-					<button class="button button-black">Mintafelvétel</button>
+					<a href="https://www.youtube.com/watch?v=eCRckGEOV0A"><button class="button button-black">Mintafelvétel</button></a>
 				</td>
 			</tr>
 		</tbody>
@@ -630,33 +631,30 @@ body{
 
 
 
-<section id="starlight" class="slide3">
-	<table align="center">
+<section id="starlight" class="slide2" >
+	<table align="center" style="background-color: #393F4D;">
 		<tbody>
-		  <tr>
-			<td class="table-eloszlas-td">
-				<img src="./2021-17/varoshaza.jpg" alt="varoshaza">
-			<td >
-				<h2 class="text-slide3-h2">Színes felvételek egész nap</h2>
-				<p class="text-slide3">Starlight kameráink nagy teljesítményű szenzorjuk és fejlet algoritmusuk segítségével képesek akár teljes sötétségben is színes felvételeket biztosítani</p>
-		  </tr>
+		  	<tr>
+				<td class="table-eloszlas-td" style="padding-left: 15px;" >
+					<img src="./2021-17/varoshaza.jpg" alt="varoshaza">
+				</td>
+				<td >
+					<h2 class="text-h2 lines-left-stlye1 lines-bottom-stlye1 text-gradient">Színes felvételek egész nap</h2>
+					<p class="text text-stlye1 text-gradient">Starlight kameráink nagy teljesítményű szenzorjuk és fejlet algoritmusuk segítségével képesek akár teljes sötétségben is színes felvételeket biztosítani</p>
+					
+				</td>
+			</tr>
 		</tbody>
 		</table>
 </section>
 
 
 
-<section id="compare" class="slide1">
-	<table align="center" border="0" cellpadding="0" cellspacing="0" width="800px&quot;">
+<section id="compare" class="slide2">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="800px&quot;" >
 		<tbody>
 			<tr>
-				<td>
-					<h2 class="text-slide1-h2" style="text-align: left; border-left: 0px solid #0094f7;">IR felvételek hátrányai nékül</h2>
-					<p class="text-slide1">Starlight kameráink képesek esti felvételeket biztosítani abllakról vagy más fényes felületről, Infravörös tükröződések nélkül</p>
-				</td>
-			</tr>
-			<tr>
-				<td>
+				<td  style="border: 6px solid #0094f7;">
 					<div class="container">
 						<div class="showcase-card">
 							<div class="ex-preview">
@@ -667,6 +665,12 @@ body{
 					<script>"use strict";!function(){var e=function(e,t){-1==e.className.split(" ").indexOf(t)&&(e.className+=" "+t)},t={default_offset_pct:.5,orientation:"horizontal",overlay:!1,hover:!1,move_with_handle_only:!0,click_to_move:!1,showSlider:!0};document.querySelectorAll("[data-pixelcompare]").forEach(function(i){var n=t.default_offset_pct,a=i;t.hover=i.hasAttribute("data-hover"),t.showSlider=t.hover?i.hasAttribute("data-show-slider"):t.showSlider,t.orientation=i.hasAttribute("data-vertical")?"vertical":"horizontal";var r=a.dataset.pixelcompareOrientation,o=["vertical","horizontal","sides"].includes(r)?r:t.orientation,l="vertical"===o?"down":"left",c="vertical"===o?"up":"right",d=function(t,i,n){var a=document.createElement(i);return e(a,"pixelcompare-wrapper pixelcompare-"+n),t.parentElement.insertBefore(a,t),a.appendChild(t),a}(i,"div",o),s=d.querySelectorAll("img")[0];s.draggable=!1;var p=d.querySelectorAll("img")[1];p.draggable=!1,e(d,"pixelcompare-container"),e(s,"pixelcompare-before"),e(p,"pixelcompare-after");var v=null;if(t.showSlider&&(v=function(t,i){var n=document.createElement("div");e(n,"pixelcompare-handle");var a=document.createElement("span");e(a,"pixelcompare-"+t+"-arrow"),n.appendChild(a);var r=document.createElement("span");return e(r,"pixelcompare-"+i+"-arrow"),n.appendChild(r),n.addEventListener("touchmove",function(e){e.preventDefault()}),n}(l,c),d.appendChild(v)),t.overlay){var h=document.createElement("div");e(h,"pixelcompare-overlay"),d.appendChild(h)}var u=function(e){var t,i,n,a=(t=e,i=s.getBoundingClientRect().width,n=s.getBoundingClientRect().height,{w:i+"px",h:n+"px",wp:100*t,cw:t*i+"px",ch:t*n+"px"});v&&("vertical"===o?v.style.top=a.ch:v.style.left=a.cw),function(e){"vertical"===o?(s.style.clip="rect(0, "+e.w+", "+e.ch+", 0)",p.style.clip="rect("+e.ch+", "+e.w+", "+e.h+", 0)"):"sides"===o?(s.style.clipPath=`polygon(0% ${2*(50-e.wp)}%, ${2*e.wp}% 100%, 0% 100%)`,p.style.clipPath=`polygon(100% ${2*(100-e.wp)}%, ${-2*(50-e.wp)}% 0%, 100% 0%)`):(s.style.clip="rect(0, "+e.cw+", "+e.h+", 0)",p.style.clip="rect(0, "+e.w+","+e.h+","+e.cw+")"),d.style.height=e.h}(a)},m=function(e,t){var i,n,a;return i="vertical"===o?(t-w)/E:(e-f)/g,n=0,a=1,Math.max(n,Math.min(a,i))};window.addEventListener("resize.pixelcompare",function(e){u(n)});var f=0,w=0,g=0,E=0,x=function(t){(t.distX>t.distY&&t.distX<-t.distY||t.distX<t.distY&&t.distX>-t.distY)&&"vertical"!==o?t.preventDefault():(t.distX<t.distY&&t.distX<-t.distY||t.distX>t.distY&&t.distX>-t.distY)&&"vertical"===o&&t.preventDefault(),e(d,"active"),f=d.offsetLeft,w=d.offsetTop,g=s.getBoundingClientRect().width,E=s.getBoundingClientRect().height},y=function(e){var t;t=d,new RegExp("(\\s|^)"+"active"+"(\\s|$)").test(t.className)&&(n=m(e.pageX||e.changedTouches[0].pageX,e.pageY||e.changedTouches[0].pageY),u(n))},L=function(){var e;e="active",d.classList.remove(e)};if(t.hover)d.addEventListener("mouseenter",x),d.addEventListener("mouseleave",L),d.addEventListener("mousemove",y);else{var _=t.move_with_handle_only?v:d;window.addEventListener("mouseup",L),d.addEventListener("mousemove",y),_.addEventListener("mousedown",x),_.addEventListener("touchstart",x),d.addEventListener("touchmove",y),window.addEventListener("touchend",L)}d.querySelector("img").addEventListener("mousedown",function(e){e.preventDefault()}),t.click_to_move&&d.on("click",function(e){f=d.offset().left,w=d.offset().top,g=s.width(),E=s.height(),n=m(e.pageX,e.pageY),u(n)}),window.dispatchEvent(new Event("resize.pixelcompare"))})}();</script>
 					</td>
 			</tr>
+			<tr>
+				<td style="background-color: #393F4D; padding: 20px; ;" class="text-stlye1">
+					<h2 class="text-h2 lines-bottom-stlye1 lines-left-stlye1">IR felvételek hátrányai nékül</h2>
+					<p class="text">Starlight kameráink képesek esti felvételeket biztosítani abllakról vagy más fényes felületről, Infravörös tükröződések nélkül</p>
+				</td>
+			</tr>
 			
 		</tbody>
 	</table>
@@ -674,6 +678,63 @@ body{
 
 
 
+<section id="VCA-header" class="slide3" >
+	<table align="center" >
+		<tbody>
+			<tr>
+				<td colspan="3">
+					<p>&nbsp;</p></td>
+			</tr>
+			<tr>
+				<td style="width: 266;"align="center">
+					<button class="button button-black">Beüzemelés</button>
+				</td>
+				<td style="width: 266!important;"align="center">
+					<img src="./2021-17/VCA-section.jpg" alt="starlight_cimszo" style="width:266px;">
+				</td>
+				<td style="width: 266;"align="center">
+					<a href="https://www.youtube.com/watch?v=eCRckGEOV0A"><button class="button button-black">Mintafelvétel</button></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+
+
+<section id="VCA" class="slide3" >
+	<table align="center" style="background-color: #32B1FF;">
+		<tbody>
+		  	<tr>
+				<td class="table-eloszlas-td" style="padding-left: 15px;" >
+					<img src="./2021-17/VCA-LOGO.jpg" alt="varoshaza">
+				</td>
+				<td >
+					<h1 style="text-align: right;" class="text-h1 text-stlye3 ">Video Content Analysis</h2>
+					<p style="text-align: right;" class="text text-stlye3">Kameráink képesek nem felvenni de értelmezni is azt amit látnak. <br><br> Ennek segítségével képesek egy teljes riasztórendszert vagy akár biztonsági felelőst is pótolni</p>
+					
+				</td>
+			</tr>
+		</tbody>
+		</table>
+</section>
+
+<section id="VCA" class="slide1" >
+	<table align="center" >
+		<tbody>
+		  	<tr>
+				
+				<td >
+					<h1 style="text-align: left;" class="text-h1 text-stlye1 ">Video Content Analysis</h2>
+					<p style="text-align: left;" class="text text-stlye1">Kameráink képesek nem felvenni de értelmezni is azt amit látnak. <br><br> Ennek segítségével képesek egy teljes riasztórendszert vagy akár biztonsági felelőst is pótolni</p>
+					
+				</td>
+				<td class="table-eloszlas-td" style="padding-left: 15px;" >
+					<img src="./2021-17/VCA-LOGO.jpg" alt="varoshaza">
+				</td>
+			</tr>
+		</tbody>
+		</table>
+</section>
 
 
 
