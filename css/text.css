@@ -52,3 +52,44 @@ body{
 	padding-right: 40px; 
 	padding-left: 40px;
 }
+.gray-textblock{
+	background-color: #393f4d;
+	background:#393f4d;
+	padding-right: 40px; 
+	padding-left: 40px;
+}
+
+.gray-textblock-sm{
+	background-color: #393f4d;
+	background:#393f4d;
+	padding-right: 10px; 
+	padding-left: 10px;
+}
+.light-textblock-sm{
+	background-color: #32B1FF;
+	background:#32B1FF;
+	padding-right: 10px; 
+	padding-left: 10px;
+}
+
+
+.gray-pelda{
+	background-color: #393f4d;
+	background:#393f4d;
+	padding-right: 10px; 
+	padding-left: 10px;
+	width: 150px!important;
+	height: 150px!important;
+	color: #E9ECEF;
+	border-radius: 100%;
+}
+
+.light-pelda{
+	background-color: #32B1FF;
+	background:#32B1FF;
+	padding-right: 10px; 
+	padding-left: 10px;
+	width: 150px!important;
+	height: 150px!important;
+	border-radius: 100%;
+}

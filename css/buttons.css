@@ -99,3 +99,85 @@
     padding: 35px 32px;
   }
   
+  .button-grayon {
+    background-color: #32B1FF; 
+    color: #393f4d; 
+    margin: 0px;
+    
+    border: 2px solid #393f4d;
+    
+  }
+  
+  .button-grayon:hover {
+    
+    background-color: #393f4d;
+    color: #E9ECEF; 
+    margin: 0px;
+    
+    border: 2px solid #E9ECEF;
+    
+    padding: 18px 82px;
+    
+  }
+
+  .button-pelda-light {
+    background-color: #32B1FF; 
+    color: #393f4d; 
+    margin: 0px;
+    border: 2px solid #393f4d;
+    border-radius: 100%;
+    padding-right: 10px; 
+    padding-left: 10px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 100%;
+    font-size: 40px;
+  }
+  
+  .button-pelda-light:hover {
+    
+    background-color: #393f4d; 
+    color: #32B1FF; 
+    margin: 0px;
+    
+    border: 2px solid #32B1FF;
+    border-radius: 100%;
+    padding-right: 10px; 
+    padding-left: 10px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 100%;
+    font-size: 45px;
+  }
+  
+
+  
+  .button-pelda-dark {
+    
+    background-color: #393f4d; 
+    color: #32B1FF; 
+    margin: 0px;
+    
+    border: 2px solid #32B1FF;
+    border-radius: 100%;
+    padding-right: 10px; 
+    padding-left: 10px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 100%;
+    font-size: 40px;
+    
+  }
+  .button-pelda-dark:hover {
+    background-color: #32B1FF; 
+    color: #393f4d; 
+    margin: 0px;
+    border: 2px solid #393f4d;
+    border-radius: 100%;
+    padding-right: 10px; 
+    padding-left: 10px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 100%;
+    font-size: 45px;
+  }
