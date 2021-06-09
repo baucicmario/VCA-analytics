@@ -84,20 +84,7 @@
   }
   
   
-  
-  .button-blueon {
-    background-color: #32B1FF; 
-    color: #393f4d; 
-    border: 2px solid #393f4d;
-  }
-  
-  .button-blueon:hover {
-    background-color: #393f4d;
-    color: #E9ECEF; 
-    border: 2px solid #393f4d;
-    
-    padding: 35px 32px;
-  }
+
   
   .button-grayon {
     background-color: #32B1FF; 
@@ -132,6 +119,9 @@
     height: 150px!important;
     border-radius: 100%;
     font-size: 40px;
+    margin-right: 10px;
+    transform: scale(1);
+    animation: pulse2 1.5s infinite;
   }
   
   .button-pelda-light:hover {
@@ -148,6 +138,7 @@
     height: 150px!important;
     border-radius: 100%;
     font-size: 45px;
+    margin-right: 10px;
   }
   
 
@@ -166,6 +157,9 @@
     height: 150px!important;
     border-radius: 100%;
     font-size: 40px;
+    margin-right: 10px;
+	transform: scale(1);
+	animation: pulse 1.5s infinite;
     
   }
   .button-pelda-dark:hover {
@@ -180,4 +174,53 @@
     height: 150px!important;
     border-radius: 100%;
     font-size: 45px;
+    margin-right: 10px;
   }
+
+
+
+
+
+
+
+
+  
+  @keyframes pulse2 {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 255, 242, 0.7);
+    }
+  
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 255, 242, 0);
+    }
+  
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 255, 242, 0);
+    }
+  }
+
+
+
+
+
+
+  
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
