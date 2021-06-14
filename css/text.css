@@ -6,13 +6,13 @@ html {
   }
 
 h2{
-	font-size: 45px;
+	font-size: 35px;
 }
 h1{
 	font-size: 65px;
 }
 p{
-	font-size: 30px;
+	font-size: 27px;
 }
 table{
 	width: 800px;
@@ -26,9 +26,7 @@ body{
 	background-color: #E9ECEF;
 	background:#E9ECEF;
 }
-a{
-	color: rgb(0, 174, 255)!important;
-  }
+
 .table-eloszlas-2{
 	width: 400px;
 }
